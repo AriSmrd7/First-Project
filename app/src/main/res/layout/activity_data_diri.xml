@@ -20,13 +20,13 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/TxtNm"
+        android:id="@+id/Nama"
         android:layout_width="360dp"
         android:layout_height="71dp"
         android:fontFamily="@font/nunito_bold"
         android:text="Nama Panggilan Kamu"
         android:textColor="@android:color/black"
-        android:textSize="27sp"
+        android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -49,13 +49,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/TxtUmur"
+        android:id="@+id/txtUmur"
         android:layout_width="360dp"
         android:layout_height="71dp"
         android:fontFamily="@font/nunito_bold"
         android:text="Umur Kamu"
         android:textColor="@android:color/black"
-        android:textSize="27sp"
+        android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

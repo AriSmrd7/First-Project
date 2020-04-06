@@ -20,23 +20,49 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/TxtNm"
-        android:layout_width="360dp"
+        android:id="@+id/txtHai"
+        android:layout_width="320dp"
         android:layout_height="201dp"
         android:fontFamily="@font/nunito_bold"
-        android:text="Beres! Sekarang kamu
-                      udah bisa ngecek
-                      penggunaan HP mu
-                      tiap hari buat bantu kamu
-                      ngatur waktu :)"
+        android:text="Hi "
         android:textColor="@android:color/black"
-        android:textSize="27sp"
+        android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.101" />
+        app:layout_constraintVertical_bias="0.120" />
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="320dp"
+        android:layout_height="201dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Hai "
+        android:textColor="@android:color/black"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/txtBeres"
+        android:layout_width="320dp"
+        android:layout_height="201dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Beres! Sekarang kamu udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)"
+        android:textColor="@android:color/black"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192" />
 
     <Button
         android:id="@+id/btnOk"

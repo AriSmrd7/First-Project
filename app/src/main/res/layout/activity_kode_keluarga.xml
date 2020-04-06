@@ -14,7 +14,7 @@
         android:fontFamily="@font/nunito_bold"
         android:text="Kode Keluarga"
         android:textColor="@android:color/black"
-        android:textSize="27sp"
+        android:textSize="29sp"
         app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -69,11 +69,10 @@
 
     <TextView
         android:id="@+id/text2"
-        android:layout_width="402dp"
+        android:layout_width="280dp"
         android:layout_height="71dp"
         android:fontFamily="@font/rubik_regular"
-        android:text="Dengan menekan tombol masuk berarti Anda menyetujui
-                      Ketentuan Pengguna dan Kebijakan Data kami"
+        android:text="@string/customtext"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="11sp"

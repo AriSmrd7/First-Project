@@ -32,13 +32,13 @@
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="302dp"
+        android:layout_width="362dp"
         android:layout_height="71dp"
         android:fontFamily="@font/nunito_bold"
         android:text="Monitory Membantu Anda Mengontrol HP Anak"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="@+id/view1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -61,5 +61,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
